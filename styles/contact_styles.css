@@ -1,0 +1,46 @@
+
+.mainHeader {
+    display: flex;
+    height: 8vw;
+    background-image: url(../images/website_background_animation.gif);
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 2.5vw;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 0.2vw;
+}
+
+.mainContent {
+    text-align: center;
+}
+
+#contactLine {
+    font-size: larger;
+}
+
+.linksBox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.link > a {
+    color: white;
+    margin: auto;
+    margin-left: 20px;
+    font-size: large;
+}

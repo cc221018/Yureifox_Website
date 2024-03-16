@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Yureifox</title>
+
+    <link rel="stylesheet" href="../styles/styles_for_all.css">
+    <link rel="stylesheet" href="../styles/navbar_styles.css">
+    <link rel="stylesheet" href="../styles/projects_styles.css">
+
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div id="navbarBox">
+            <div class="logoBox">
+                <a href="../index.html"> <img src="../images/logo.png" alt="home" width="45" height="44"> </a>
+            </div>
+            <div class="navItemsBox">
+                <a href="../index.html">About Me</a>
+                <a class="activeLink" href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="mainHeader">
+        <h2>Projects</h2>
+    </header>
+
+    <main class="mainContent">
+
+        <div class="projectCard">
+            <img class="projectImg" src="../images/projectPic_TGF.png" alt="project1" width="100%" height="auto">
+            <div class="projectTextBox">
+                <h3>The Golden Fridge</h3>
+                <p class="projectTags">HiFi Design, Mobile Dev, UX Evaluation, User Testing</p>
+                <p class="projectDescription">An Android app coded in Kotlin that helps users reduce food waste and get an overview of what’s inside of their fridge.</p>
+                <a href="projects/project_TGF.html"><div class="viewButton">View Project</div></a>
+            </div>
+        </div>
+
+        <div class="projectCard">
+            <img class="projectImg" src="../images/projectPic_NewSpace.png" alt="project2" width="100%" height="auto">
+            <div class="projectTextBox">
+                <h3>NewSpace</h3>
+                <p class="projectTags">Wireframing, HiFi Prototyping</p>
+                <p class="projectDescription">A meetup app that allows users to find nearby events and meet new people with the same interests in a safe environment.</p>
+                <a href="projects/project_NewSpace.html"><div class="viewButton">View Project</div></a>
+            </div>
+        </div>
+
+        <div class="projectCard">
+            <img class="projectImg" src="../images/projectPic_ArtWay.png" alt="project3" width="100%" height="auto">
+            <div class="projectTextBox">
+                <h3>ArtWay</h3>
+                <p class="projectTags">LoFi Prototyping, Full-Stack Dev, Database Design</p>
+                <p class="projectDescription">A website connected to a database where users can login as an artist and exchange valuable knowledge about the art industry.</p>
+                <a href="projects/project_ArtWay.html"><div class="viewButton">View Project</div></a>
+            </div>
+        </div>
+
+        <div class="projectCard">
+            <img class="projectImg" src="../images/projectPic_Stray.png" alt="project4" width="100%" height="auto">
+            <div class="projectTextBox">
+                <h3>Stray</h3>
+                <p class="projectTags">LoFi & HiFi Prototyping, Responsive Design</p>
+                <p class="projectDescription">A website and an app version of an online banking platform based on the game “Stray” as a playful touch.</p>
+                <a href="projects/project_Stray.html"><div class="viewButton">View Project</div></a>
+            </div>
+        </div>
+
+        <div class="projectCard">
+            <img class="projectImg" src="../images/projectPic_SpiritFire.png" alt="project5" width="100%" height="auto">
+            <div class="projectTextBox">
+                <h3>Spirit Fire</h3>
+                <p class="projectTags">Game Dev, Pixelart</p>
+                <p class="projectDescription">A 2D browser game where you play as a fox on a tile map and try to solve the puzzle of each level..</p>
+                <a href="projects/project_SpiritFire.html"><div class="viewButton">View Project</div></a>
+            </div>
+        </div>
+    </main>
+
+    <div class="buttonBox">
+        <button id="goTopButton" class="goTopButton" onclick="goToTop()">
+            <img src="../images/goToTop.png" alt="goToTopButton" width="90%" height="auto">
+        </button>
+    </div>
+
+    <script src="../scripts/stickyNav.js"></script>
+    <script src="../scripts/goToTop.js"></script>
+</body>
+
+</html>

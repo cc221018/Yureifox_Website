@@ -1,0 +1,91 @@
+
+.mainHeader {
+    display: flex;
+    height: 8vw;
+    background-image: url(../images/website_background_animation.gif);
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 2.5vw;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 0.2vw;
+}
+
+.mainContent {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projectCard {
+    width: 26vw;
+    background-color: rgba(135, 167, 255, 0.1);
+    padding: 1vw 0.7vw 0.7vw 0.7vw;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 15px 15px;
+    margin-bottom: 5vw;
+}
+
+
+@keyframes cardZoom {
+    from {
+        scale: 1.0;
+        background-color: rgba(227, 151, 255, 0);
+    }
+    to {
+        scale: 1.1;
+        background-color: rgb(227, 151, 255, 0.1);
+    }
+}
+
+
+.projectCard:hover {
+    animation: forwards cardZoom 0.5s;
+}
+
+.projectTextBox {
+    padding: 1vw;
+}
+
+h3 {
+    font-size: 23px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.projectTags {
+    color: #C930FF;
+    font-size: 18px;
+}
+
+.projectDescription {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.viewButton {
+    width: fit-content;
+    padding: 1vw;
+    font-weight: bold;
+    border: white 3px solid;
+    border-radius: 3vw;
+}
+
+.projectTextBox > a {
+    color: white;
+    text-decoration: none;
+}
+
+.viewButton:hover {
+    color: rgba(29, 40, 50, 1);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+}

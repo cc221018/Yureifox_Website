@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Yureifox</title>
+
+    <link rel="stylesheet" href="styles/styles_for_all.css">
+    <link rel="stylesheet" href="styles/navbar_styles.css">
+    <link rel="stylesheet" href="styles/index_styles.css">
+
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+    <nav>
+        <div id="navbarBox">
+            <div class="logoBox">
+                <a href="index.html"> <img src="../images/logo.png" alt="home" width="45" height="44"> </a>
+            </div>
+            <div class="navItemsBox">
+                <a class="activeLink" href="#scrollHere">About Me</a>
+                <a href="pages/projects.html">Projects</a>
+                <a href="pages/contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="mainHeader">
+        <h1>Y U R E I F O X</h1>
+    </header>
+
+    <main>
+        <div class="mainContent">
+            <h2 id="scrollHere">About Me</h2>
+            <div class="contentSectionBox">
+                <div class="textBox" id="leftBox">
+                    <h3>This Is Me</h3>
+                    <p>
+                        Hi, I’m  <b>Yureifox</b>,  but most people call me Samy. <br> <br>
+                        I’m an Austria-based student who aspires to create a more appealing and empathetic online world.
+                        I always try to understand the ‘why’ behind everything that I do, both in design and in life. I also like foxes.
+                    </p>
+                    <h5>What do I do?</h5>
+                    <p>
+                        In my various projects, I often take on the roles of UI/UX and front-end designer. Though, as a student, I get the exciting
+                        opportunity to explore different aspects of the creative process. Whether it's evaluating user experiences, testing interfaces,
+                        or delving into full-stack development, I've worn many hats and gained valuable insights. <br>
+                        Beyond my academic pursuits, I'm a dedicated digital artist and, occasionally, a 2D animator. At home, my passion for creativity truly comes to life! 
+                    </p>
+                </div>
+                <div class="picBox" id="rightBox">
+                    <img src="../images/chibi_me.PNG" alt="home">
+                </div>
+            </div>
+            <div class="contentSectionBox">
+                <div class="picBox" id="leftBox">
+                    <img src="../images/my_career.PNG" alt="home">
+                </div>
+                <div class="textBox" id="rightBox">
+                    <h3 id="rightHeader">My Career So Far</h3>
+                    <p>Throughout my whole life I have immersed myself in the world of art and design, exploring every avenue to cultivate my skills 
+                        and unleash my creativity. However, finding the perfect path was a bit of a challenge for me - after all, there are so many different ways 
+                        to incorporate art and design in one’s career.
+                    </p>
+                    <p>
+                        After experimenting with various career options, I eventually landed at UAS St.Pölten, where I discovered the ideal fit for my aspirations. 
+                        Currently enrolled in Creative Computing, I'm delving into the diverse and exciting aspects of the creative computer world. 
+                        From designing, evaluating and coding websites to envisioning tangible user interfaces and game concepts, this journey is expanding my knowledge 
+                        in numerous creative dimensions.
+                    </p>
+                </div>
+            </div>
+            <div class="skillBox">
+                <h3>My Skills</h3>
+                <p>
+                    Embarking on a journey of creative exploration, I've cultivated a diverse skill set through personal and academic design projects. 
+                    These skills are now finely tuned and primed for impactful contributions to real-world industry endeavors.
+                </p>
+                <div class="skillHeaders">
+                    <h4>Designing</h4> <h4>Developing</h4>
+                </div>
+                <div class="skillSliders">
+                    <img src="images/skillSliders.png" alt="skillSliders" width="100%" height="auto">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="buttonBox">
+        <button id="goTopButton" class="goTopButton" onclick="goToTop()">
+            <img src="images/goToTop.png" alt="goToTopButton" width="90%" height="auto">
+        </button>
+    </div>
+
+    <script src="scripts/stickyNav.js"></script>
+    <script src="scripts/goToTop.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: Sketchy;
+    src: url(../fonts/sketchy.ttf);
+}
+
+
+
+
+
+body {
+    margin: 0px;
+    background-color: #1D2832;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.mainContent {
+    width: 60%;
+    margin: auto;
+}
+
+.buttonBox {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.goTopButton {
+    display: flex;
+    text-align: center;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+}
+
+.goTopButton:hover {
+    width: 10%;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: Sketchy;
+    font-weight: normal;
+}

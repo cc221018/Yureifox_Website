@@ -1,0 +1,115 @@
+
+.mainHeader {
+    display: block;
+    height: 26vw;
+    background-image: url(../images/website_background_animation.gif);
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    margin: auto;
+    font-family: Sketchy;
+    font-size: 4vw;
+    font-weight: normal;
+    padding-top: 10vw;
+}
+
+.mainContent {
+    display: block;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+/* ------------- 'This Is Me' & 'My Career So Far' section ---------------- */
+
+#scrollHere {
+    scroll-behavior: smooth;
+}
+
+.contentSectionBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    height: fit-content;
+}
+
+.textBox {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+h5 {
+    font-size: large;
+}
+
+#rightHeader {
+    text-align: right;
+}
+
+.picBox {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.picBox > img {
+    height: 30vw;
+    min-height: 300px;
+    max-height: 500px;
+}
+
+#leftBox {
+    margin-right: 40px;
+}
+
+#rightBox {
+    margin-left: 40px;
+}
+
+
+
+
+/* ------------- 'My Skills' section ---------------- */
+
+
+.skillBox {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.skillHeaders {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+h4 {
+    padding: 0px 20px;
+    font-size: larger;
+}
+
+.skillSliders {
+    display: flex;
+    margin: auto;
+    padding: 0px 30px;
+    width: 80%;
+}

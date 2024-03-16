@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Yureifox</title>
+
+    <link rel="stylesheet" href="../../styles/styles_for_all.css">
+    <link rel="stylesheet" href="../../styles/navbar_styles.css">
+    <link rel="stylesheet" href="../../styles/specific_project_styles.css">
+
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div id="navbarBox">
+            <div class="logoBox">
+                <a href="../../index.html"> <img src="../../images/logo.png" alt="home" width="45" height="44"> </a>
+            </div>
+            <div class="navItemsBox">
+                <a href="../../index.html">About Me</a>
+                <a class="activeLink" href="../projects.html">Projects</a>
+                <a href="../contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="mainHeader">
+        <h2>Projects</h2>
+    </header>
+
+    <main class="mainContent">
+        <h3>ArtWay</h3>
+        <p>ArtWay is a website which enables people to dive deeper into the world of art and gain and share valuable knowledge about the art industry and its 
+            professional artists. In the end, it aims to helps young aspiring artists to have a much better chance at making a career as an artist or animator of 
+            any category. The finished product is a result of the final 2 project weeks of my second semester, also known as the “Creative CodeLabs 2”.</p>
+        <div class="buttonBox">
+            <a href="https://www.figma.com/file/MSrDMyGenkN7HLaqizmgpM/CCL2---Full-Stack-Dev---ArtWay?type=design&node-id=0%3A1&mode=design&t=fa42Rhi6oYo3iIAC-1" target=”_blank”><div class="viewButton">View Figma File</div></a>
+            <a href="https://www.figma.com/proto/MSrDMyGenkN7HLaqizmgpM/CCL2---Full-Stack-Dev---ArtWay?page-id=0%3A1&type=design&node-id=9-281&viewport=175%2C476%2C0.06&t=qWoFoY7CLrD0NmbP-1&scaling=min-zoom&starting-point-node-id=9%3A2&mode=design" target=”_blank”><div class="viewButton">View Prototype (LoFi)</div></a>
+            <a href="https://github.com/cc221018/ArtWay_CCL2" target=”_blank”><div class="viewButton">View Code</div></a>
+        </div>
+
+        <div class="cardSection">
+
+            <div class="card">
+                <img src="../../images/ArtWay_pics/lofi_designs.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>LoFi Designs</h4>
+                    <p>The Creative CodeLabs (CCL) occur at the semester's end, requiring me to apply all the knowledge acquired throughout my courses to craft a 
+                        final product. This entails donning the hats of a designer, front-end developer, and back-end developer. To manage time effectively, I 
+                        streamlined the design phase, focusing solely on finalizing the LoFi prototype. Although a condensed approach, it laid a solid foundation for the project.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../../images/ArtWay_pics/hifi_tests.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>HiFi Test Designs</h4>
+                    <p>After finishing the LoFi wireframes, I delved into testing colors and crafting a logo. With a vision of creating a welcoming space for artists, 
+                        the website was designed to exude an artistic touch. Employing vibrant, lighter colors to symbolize a bright future empowered by the platform felt 
+                        like the perfect fit - I was ready to start the coding phase of my project.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../../images/ArtWay_pics/onboarding.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>Onboarding</h4>
+                    <p>The onboarding phase aims to inspire and welcome users, incorporating an artistic touch. It features the same vibrant colors as the rest of 
+                        the website for a consistent and inviting experience.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../../images/ArtWay_pics/3_main_pages.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>The 3 Main Pages</h4>
+                    <p>ArtWay facilitates the swift retrieval of valuable information for young artists through three main pages: Insights, Artworks, and Artists. 
+                        Each category serves as a dedicated space to streamline and organize information for a more efficient user experience: Artist profiles, 
+                        their artworks and their insight posts. Similar to Tweets or blog posts, ArtWay’s Insights emphasize textual content over visuals. These 
+                        posts, encompassing artists' comments, stories, and more, offer valuable tips and explanations on diverse topics within the art industry.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../../images/ArtWay_pics/user_profiles.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>Customizable User Profile</h4>
+                    <p>On a user's - or artist's - profile, essential information such as country, status, and name is showcased. Two lists containing all 
+                        their posts, including artworks and insight posts, are prominently displayed. Users have the flexibility to customize and edit both 
+                        private and public information on their own profile page, ranging from profile picture, status, and posts to email and password. This 
+                        allows for a personalized ArtWay experience tailored to individual preferences.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../../images/ArtWay_pics/posting.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>Simplistic Posting</h4>
+                    <p>Users can effortlessly share their artistic creations or insights on ArtWay through a straightforward process. Simple input fields, 
+                        easy picture uploading, and clear buttons for switching between artwork and insight posts contribute to a user-friendly experience.</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </main>
+
+    <div class="buttonBox">
+        <button id="goTopButton" class="goTopButton" onclick="goToTop()">
+            <img src="../../images/goToTop.png" alt="goToTopButton" width="90%" height="auto">
+        </button>
+    </div>
+
+    <script src="../../scripts/stickyNav.js"></script>
+    <script src="../../scripts/goToTop.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Yureifox</title>
+
+    <link rel="stylesheet" href="../../styles/styles_for_all.css">
+    <link rel="stylesheet" href="../../styles/navbar_styles.css">
+    <link rel="stylesheet" href="../../styles/specific_project_styles.css">
+
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div id="navbarBox">
+            <div class="logoBox">
+                <a href="../../index.html"> <img src="../../images/logo.png" alt="home" width="45" height="44"> </a>
+            </div>
+            <div class="navItemsBox">
+                <a href="../../index.html">About Me</a>
+                <a class="activeLink" href="../projects.html">Projects</a>
+                <a href="../contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="mainHeader">
+        <h2>Projects</h2>
+    </header>
+
+    <main class="mainContent">
+        <h3>Spirit Fire</h3>
+        <p>Spirit Fire is a small 2D browser game of the type “top down treasure hunter”, coded in Javascript. In this game, you play as a tiny Spirit Fox that needs 
+            to dodge enemies, collect flames and sometimes solve a puzzle in order to complete a level. The finished product is a result of the 
+            final 2 project weeks of my first semester, also known as the “Creative CodeLabs 1”.</p>
+        <div class="buttonBox">
+            <a href="https://cc221018.github.io/Spirit_Fire_CCL1/" target=”_blank”><div class="viewButton">Play Game</div></a>
+            <a href="https://github.com/cc221018/Spirit_Fire_CCL1" target=”_blank”><div class="viewButton">View Code</div></a>
+        </div>
+
+        <div class="cardSection">
+
+            <div class="card">
+                <img src="../../images/SpiritFire_pics/pixelart.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>Pixelart & Spritesheets</h4>
+                    <p>Before starting with the first few lines of code, I needed to create the graphics for the game. This meant making a lot of pixelart, 
+                        including map tiles, objects and spritesheets for the animations.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../../images/SpiritFire_pics/html_screens.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>HTML/CSS Screens</h4>
+                    <p>The home screen, as well as other screens like the pause and success/death screens, are crafted using straightforward HTML and CSS code. The home 
+                        screen provides information on controls and the available biomes for gameplay. Each biome, such as the Forest and Mushroom biomes, consists 
+                        of 10 levels, with the Forest covering levels 1-5 and the Mushroom biome spanning levels 6-10. The difficulty progressively increases with each level.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../../images/SpiritFire_pics/levels.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>The Levels</h4>
+                    <p>The game levels are structured as 10x17 2D arrays with numbers from -1 to 6, representing game objects like walls, doors, keys, flames, wolves, 
+                        and the player (fox). Object collisions are programmed to dictate player interactions, such as encountering a wall resulting in no action, or 
+                        facing a wolf leading to a Game Over screen.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../../images/SpiritFire_pics/code_structure.png" alt="projectPic" width="50%" height="auto">
+                <div class="cardTextBox">
+                    <h4>Code Structure</h4>
+                    <p>The code is mainly based on object-oriented principles, utilizing inheritance to share common functionalities and characteristics among 
+                        game objects. A general object serves as a base class. The image object, built upon the general onject, handles the animation part of 
+                        all the specific game objects that inherit it, like for example flames, walls, or wolves. Each file in my project directory encapsulates 
+                        the behavior and attributes of its respective game object for organized and modular code.</p>
+                </div>
+            </div>
+
+        </div>
+        
+    </main>
+
+    <div class="buttonBox">
+        <button id="goTopButton" class="goTopButton" onclick="goToTop()">
+            <img src="../../images/goToTop.png" alt="goToTopButton" width="90%" height="auto">
+        </button>
+    </div>
+
+    <script src="../../scripts/stickyNav.js"></script>
+    <script src="../../scripts/goToTop.js"></script>
+</body>
+
+</html>
